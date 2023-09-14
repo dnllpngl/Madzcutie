@@ -36,3 +36,22 @@ nav {
   align-items: center;
   height: 17vh;
 }
+
+.nav-links {
+  gap: 2rem;
+  list-style: none;
+  font-size: 1, 5rem;
+}
+
+a {
+  color: black;
+  text-decoration: wavy;
+  text-decoration-color: rgb(241, 137, 0);
+}
+
+a:hover {
+  color: rgb(0, 0, 255);
+  text-decoration: solid;
+  text-underline-offset: 1rem;
+  text-decoration-color: aqua;
+}
