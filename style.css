@@ -1,0 +1,38 @@
+* {
+  /*Html Document Setting */
+
+  @import url();
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+p {
+  color: rgb(red, green, blue);
+}
+
+/* Transition */
+
+a,
+,
+btn {
+  transition: all 300ms ease;
+}
+/* Desktop navigation */
+
+nav,
+.nav-links {
+  display: flex;
+}
+
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
+}
